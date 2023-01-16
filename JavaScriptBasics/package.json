@@ -1,0 +1,22 @@
+{
+  "name": "start",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "runtests": "./node_modules/.bin/cypress run --spec './cypress/e2e/TestCases/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.3",
+    "@cypress/xpath": "^2.0.3",
+    "cypress": "^12.3.0",
+    "cypress-file-upload": "^5.0.8"
+  },
+  "dependencies": {
+    "cypress-downloadfile": "^1.2.3",
+    "cypress-xpath": "^2.0.1",
+    "help": "^3.0.2"
+  }
+}
