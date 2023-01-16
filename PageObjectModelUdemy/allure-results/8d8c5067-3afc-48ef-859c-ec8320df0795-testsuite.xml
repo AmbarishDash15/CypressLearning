@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673853833313' stop='1673853846270'>
+    <name>Login As Bank Manager</name>
+    <title>Login As Bank Manager</title>
+    <test-cases>
+        <test-case start='1673853833314' status='failed' stop='1673853845361'>
+            <name>Verify page title</name>
+            <title>Verify page title</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4000ms: expected 'Protractor practice website - Banking App' to equal 'Protractor practice website1 - Banking App'</message>
+                <stack-trace>AssertionError: Timed out retrying after 4000ms: expected 'Protractor practice website - Banking App' to equal 'Protractor practice website1 - Banking App'
+                    at Context.eval (webpack:///./cypress/e2e/testcases/TC01_BankManagerLogin.cy.js:16:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673853845423' status='passed' stop='1673853846268'>
+            <name>Verify login as Bank Manager</name>
+            <title>Verify login as Bank Manager</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

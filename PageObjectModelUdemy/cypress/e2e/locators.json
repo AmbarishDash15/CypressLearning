@@ -1,0 +1,27 @@
+{
+
+    "homePage" : {
+        "bankManagerLoginButton" : "body > div.ng-scope > div > div.ng-scope > div > div.borderM.box.padT20 > div:nth-child(3) > button",
+        "customerLoginButton" : "body > div.ng-scope > div > div.ng-scope > div > div.borderM.box.padT20 > div:nth-child(1) > button"
+    },
+
+    "bankManagerPage" : {
+        "addCustomerButton" : "body > div.ng-scope > div > div.ng-scope > div > div.center > button:nth-child(1)",
+        "openAccountButton" : "body > div.ng-scope > div > div.ng-scope > div > div.center > button:nth-child(2)",
+        "customerButton" : "body > div.ng-scope > div > div.ng-scope > div > div.center > button:nth-child(3)",
+        "homeButton" : "body > div.ng-scope > div > div.box.mainhdr > button.btn.home"
+    },
+
+    "AddCustomerPage" : {
+        "txtfldFirstName" : "body > div.ng-scope > div > div.ng-scope > div > div.ng-scope > div > div > form > div:nth-child(1) > input",
+        "txtfldLastName" : "body > div.ng-scope > div > div.ng-scope > div > div.ng-scope > div > div > form > div:nth-child(2) > input",
+        "txtfldPostCode" : "body > div.ng-scope > div > div.ng-scope > div > div.ng-scope > div > div > form > div:nth-child(3) > input",
+        "AddCustomerButton" : "body > div.ng-scope > div > div.ng-scope > div > div.ng-scope > div > div > form > button"
+    },
+
+    "OpenAccountPage" : {
+        "drpdnCustomerName" : "#userSelect",
+        "drpdnCurrency" : "#currency",
+        "processButton" : "body > div.ng-scope > div > div.ng-scope > div > div.ng-scope > div > div > form > button"
+    }
+}
