@@ -1,0 +1,9 @@
+{
+
+    "CustomerFirstName" : "Ambarish",
+    "CustomerLastName" : "Dash",
+    "CustomerPostCode" : "756036",
+    "AlertMessageonAddCust" : "Customer added successfully with customer id :",
+    "AccountCurrency" : "Rupee",
+    "AlertMessageOnOpenAccount" : "Account created successfully with account Number :"
+}

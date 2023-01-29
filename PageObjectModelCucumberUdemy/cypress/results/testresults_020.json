@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-01-15T08:58:27.229Z",
+    "end": "2023-01-15T08:58:31.995Z",
+    "duration": 4766,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "12a023bb-005e-41f2-8ee0-0a91e7d7a9b7",
+      "title": "",
+      "fullFile": "cypress\\e2e\\testcases\\TC03_OpenAccount.cy.js",
+      "file": "cypress\\e2e\\testcases\\TC03_OpenAccount.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "e6d06415-43d2-4b99-be4e-308080bd0268",
+          "title": "Open Account for the customer",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Open account for the added user",
+              "fullTitle": "Open Account for the customer Open account for the added user",
+              "timedOut": null,
+              "duration": 4684,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "homePage.loginAsBankManager();\nbankManagerPage.clickAddCustomerBtn();\naddCustomerPage.enterCustomerDetails(data.CustomerFirstName, data.CustomerLastName, data.CustomerPostCode);\nbankManagerPage.validateAlert(data.AlertMessageonAddCust);\nbankManagerPage.clickOpenAccountBtn();\nopenAccountPage.enterAccountDetails(data.CustomerFirstName + ' ' + data.CustomerLastName, data.AccountCurrency);\nbankManagerPage.validateAlert(data.AlertMessageOnOpenAccount);",
+              "err": {},
+              "uuid": "99fdabf4-7c4b-4172-ad45-5c833369f8d9",
+              "parentUUID": "e6d06415-43d2-4b99-be4e-308080bd0268",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "99fdabf4-7c4b-4172-ad45-5c833369f8d9"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 4684,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "testresults",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "reportFilename": "testresults",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "charts": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

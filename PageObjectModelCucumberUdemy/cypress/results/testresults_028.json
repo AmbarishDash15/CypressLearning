@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-01-15T09:22:54.088Z",
+    "end": "2023-01-15T09:22:57.683Z",
+    "duration": 3595,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "bf587fc2-b2ae-4579-a323-de9893b8c677",
+      "title": "",
+      "fullFile": "cypress\\e2e\\testcases\\TC02_AddCustomer.cy.js",
+      "file": "cypress\\e2e\\testcases\\TC02_AddCustomer.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "f60b3858-d66d-46c2-8a2f-a8085f8d2408",
+          "title": "Add a new customer",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Add a new customer as bank manager",
+              "fullTitle": "Add a new customer Add a new customer as bank manager",
+              "timedOut": null,
+              "duration": 3533,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "homePage.loginAsBankManager();\nbankManagerPage.clickAddCustomerBtn();\naddCustomerPage.enterCustomerDetails(data.CustomerFirstName, data.CustomerLastName, data.CustomerPostCode);\nbankManagerPage.validateAlert(data.AlertMessageonAddCust);",
+              "err": {},
+              "uuid": "016ace48-acb7-4883-8930-de62c32d8f8c",
+              "parentUUID": "f60b3858-d66d-46c2-8a2f-a8085f8d2408",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "016ace48-acb7-4883-8930-de62c32d8f8c"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3533,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "testresults",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "reportFilename": "testresults",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "charts": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
