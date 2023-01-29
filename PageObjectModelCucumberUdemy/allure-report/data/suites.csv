@@ -1,5 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Thu Jan 26 09:12:58 AEDT 2023","Thu Jan 26 09:13:02 AEDT 2023","3671","","Add a new customer","","Add a new customer","Add a new customer as bank manager","Add a new customer as bank manager",""
-"passed","Thu Jan 26 09:12:52 AEDT 2023","Thu Jan 26 09:12:53 AEDT 2023","837","","Login As Bank Manager","","Login As Bank Manager","Verify login as Bank Manager","Verify login as Bank Manager",""
-"passed","Thu Jan 26 09:13:06 AEDT 2023","Thu Jan 26 09:13:10 AEDT 2023","4331","","Open Account for the customer","","Open Account for the customer","Open account for the added user","Open account for the added user",""
-"failed","Thu Jan 26 09:12:46 AEDT 2023","Thu Jan 26 09:12:52 AEDT 2023","6465","","Login As Bank Manager","","Login As Bank Manager","Verify page title","Verify page title",""
