@@ -11,6 +11,10 @@ export default class OpenAccountPageAction{
     enterAccountDetails(custName,currency){
         openacctelement.customerNameSelectField().select(custName)
         openacctelement.currencySelectField().select(currency)
+        
+    }
+
+    clickProcessButton(){
         openacctelement.processButton().click()
     }
 

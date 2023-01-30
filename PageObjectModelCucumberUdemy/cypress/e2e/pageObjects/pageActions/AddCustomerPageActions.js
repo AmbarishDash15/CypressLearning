@@ -12,6 +12,10 @@ export default class AddCustomerPageActions{
         addctmrelement.firstNameField().type(firstName)
         addctmrelement.lastNameField().type(lastName)
         addctmrelement.postCodeField().type(postCode)
+        
+    }
+
+    clickAddCustomer(){
         addctmrelement.addCustomerButton().click()
     }
 
